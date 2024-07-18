@@ -1,0 +1,9 @@
+module_config {
+    module_library : "hack_apollo/component0/libtest.so"
+    components {
+        class_name : "ComponentTest"
+        config {
+            name : "component_test"
+        }
+    }
+}
