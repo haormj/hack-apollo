@@ -14,6 +14,7 @@ apollo_component(
     hdrs=["test.h"],
     deps=[
         "//cyber",
+        "//hack_apollo/proto:echo_cc_proto",
     ],
     visibility=["//visibility:private"],
 )

@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+message Hello {
+	optional string hello = 1;
+};
+
+message Ping {
+	optional string ping = 1;
+};
+
+message Pong {
+	optional string pong = 2;
+};
