@@ -15,18 +15,15 @@ apollo_component(
     deps=[
         "//cyber",
         "//hack_apollo/proto:echo_cc_proto",
-        "//hack_apollo/timer_component/proto:config_cc_proto"
     ],
     visibility=["//visibility:private"],
 )
 
 filegroup(
-    name = "runtime_data",
-    srcs = glob([
-        "conf/*.txt",
-        "dag/*.dag",
-        "launch/*.launch",
-    ]),
+    name="conf",
+    srcs=[
+        ":test.dag",
+    ],
 )
 
 apollo_package()

@@ -1,0 +1,43 @@
+module_config {
+    module_library : "hack_apollo/timer_component/libtest.so"
+    timer_components {
+        class_name : "Test"
+        config {
+            name : "hello"
+            config_file_path : "/apollo/hack_apollo/timer_component/conf/hello.pb.txt"
+            interval : 10
+        }
+    }
+    timer_components {
+        class_name : "Test"
+        config {
+            name : "hello1"
+            config_file_path : "/apollo/hack_apollo/timer_component/conf/hello1.pb.txt"
+            interval : 100
+        }
+    }
+    timer_components {
+        class_name : "Test"
+        config {
+            name : "hello2"
+            config_file_path : "/apollo/hack_apollo/timer_component/conf/hello2.pb.txt"
+            interval : 1000
+        }
+    }
+    timer_components {
+        class_name : "Test"
+        config {
+            name : "hello3"
+            config_file_path : "/apollo/hack_apollo/timer_component/conf/hello3.pb.txt"
+            interval : 2000
+        }
+    }
+    timer_components {
+        class_name : "Test"
+        config {
+            name : "hello4"
+            config_file_path : "/apollo/hack_apollo/timer_component/conf/hello4.pb.txt"
+            interval : 3000
+        }
+    }
+}

@@ -1,0 +1,5 @@
+syntax = "proto2";
+
+message TimerComponentConfig {
+	required string channel_name = 1;
+}

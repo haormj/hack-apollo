@@ -1,0 +1,18 @@
+module_config {
+    module_library : "hack_apollo/component3/libtest.so"
+    components {
+        class_name : "ComponentTest"
+        config {
+            name : "component_test"
+            readers {
+                channel: "/test/hello"
+            }
+            readers {
+                channel: "/test/hello1"
+            }        
+            readers {
+                channel: "/test/hello2"
+            }        
+        }
+    }
+}
