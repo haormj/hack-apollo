@@ -1,0 +1,10 @@
+module_config {
+    module_library : "hack-apollo/02.timer-component/libtest.so"
+    timer_components {
+        class_name : "Test"
+        config {
+            name : "timer"
+            interval : 1000
+        }
+    }
+}
