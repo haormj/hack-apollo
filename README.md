@@ -14,6 +14,7 @@
 - git clone 
 - bazel build hack_apollo/...
 - mainboard -d hack_apollo/timer_component/test.dag
+- bazel build -c dbg 编译出来的内容会带符号，方便调试
 
 ### 细节
 
